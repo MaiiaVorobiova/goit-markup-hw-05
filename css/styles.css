@@ -693,6 +693,17 @@ img {
   cursor: pointer;
 }
 
+.close-btn:hover .close-btn-svg {
+  fill: var(--accent-color);
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-btn-svg {
+  width: 18px;
+  height: 18px;
+}
 .is-hidden {
   opacity: 0;
   visibility: hidden;
