@@ -574,37 +574,37 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.portfolio-discription-list:hover .overlay {
+.portfolio-discription-list:hover .overlay-description {
   transform: translateY(0%);
 }
 
 .portfolio-discription-list {
-  /* position: relative;
-  overflow: hidden; */
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-description {
   position: absolute;
   top: 0;
   left: 0;
   width: 370px;
   height: 294px;
+  padding: 63px 23px;
+  font-size: 18px;
+  line-height: 1.555;
+  letter-spacing: 0.03em;
+  color: #ffffff;
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition-property: all;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.overlay-description {
-  padding-left: 23px;
-  padding-top: 63px;
-  font-size: 18px;
-  line-height: 1.555;
-  letter-spacing: 0.03em;
-  color: #ffffff;
 }
 
 /* clients */
